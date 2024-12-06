@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- EditText for Greenhouse Name -->
+    <EditText
+        android:id="@+id/greenhouseNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Greenhouse Name"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <!-- EditText for Square Feet -->
+    <EditText
+        android:id="@+id/squareFeetEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Square Feet Area"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <!-- EditText for Location -->
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <!-- Button to Add Greenhouse -->
+    <Button
+        android:id="@+id/addGreenhouseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Greenhouse" />
+</LinearLayout>

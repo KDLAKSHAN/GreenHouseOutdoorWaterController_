@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define custom green colors -->
+    <color name="primary_color">#006838</color> <!-- Green -->
+    <color name="primary_variant">#388E3C</color> <!-- Darker green -->
+    <color name="secondary_color">#81C784</color> <!-- Light green -->
+    <color name="background_color">#FFFFFF</color> <!-- Light green background -->
+</resources>

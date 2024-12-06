@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <color name="primary_Strincolor">#050505</color> <!-- Green -->
+</resources>

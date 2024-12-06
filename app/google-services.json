@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "176951536175",
+    "firebase_url": "https://mysecondapp-c3515-default-rtdb.firebaseio.com",
+    "project_id": "mysecondapp-c3515",
+    "storage_bucket": "mysecondapp-c3515.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176951536175:android:3f9819cf6281d86da674da",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdxFvwmm-XsUVGhN1YGrP8xC5j5t_IHdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

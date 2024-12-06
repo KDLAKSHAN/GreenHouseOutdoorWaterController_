@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/greenhouse"
+        android:scaleType="centerCrop" />
+
+    <!-- TextView for Greenhouse Name -->
+    <TextView
+        android:id="@+id/greenhouseNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Greenhouse Name"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- TextView for Square Feet Area -->
+    <TextView
+        android:id="@+id/squareFeetTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Area: 0 sq. ft."
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <!-- TextView for Location -->
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Location: Unknown"
+        android:textColor="#000"
+        android:textSize="16sp" />
+</LinearLayout>
